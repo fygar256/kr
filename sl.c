@@ -8,7 +8,7 @@
 #include  <stdbool.h>
 #include  <ctype.h>
 
-#define isconsonant(x)  (index("kstnhmyrwzjpbcgqvfx",(x))!=0)
+#define isconsonant(x)  (index("kstnhmyrwzjpbcgqvf",(x))!=0)
 
 static  char  *tab[]={
     "wa" ,"わ"  ,"wi" ,"うぃ",               "we" ,"うぇ","wo" ,"を"  ,
